@@ -43,7 +43,7 @@ body {
   }
   
   .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -64,8 +64,10 @@ body {
   }
   
   h2 {
-    color: blue;
+    color: rgb(3, 3, 8);
     position: absolute;
-    align-self: auto;
+    top: 50px;
+    left: 720px;
+    right: 600px;
   }
  
