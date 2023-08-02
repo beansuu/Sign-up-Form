@@ -1,21 +1,28 @@
+@font-face {
+    font-family: 'CustomFont'; 
+    src: url('norse-bold-webfont.woff') format('woff2'),
+         url('norse-bold-webfont.woff2') format('woff');
+  }
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'CustomFont', Arial, sans-serif;
   }
   
   .container {
+    position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    padding-right: 20%;
     height: 100vh;
     background: url('background-image.jpg') no-repeat left center;
-    background-size: cover;
+    background-size: contain;
+    background-color:#ccc;
   }
   
   .form-container {
-    background-color: #fff;
+    background-color: #ffffffb2;
     padding: 50px;
     width: 40vh;
     border-radius: 8px;
@@ -45,7 +52,7 @@ body {
   button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: rgba(0, 0, 0, 0.664);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -53,6 +60,12 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #273628;
   }
   
+  h2 {
+    color: blue;
+    position: absolute;
+    align-self: auto;
+  }
+ 
