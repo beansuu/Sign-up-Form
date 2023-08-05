@@ -7,10 +7,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
     const password = document.getElementById('password').value;
     const confirmPassword = document.getElementById('confirm-password').value;
   
-    // You can perform form validation and submit the data to the server here
-    // For simplicity, I'm not including the validation and submission code in this example
-  
-    // Displaying the form data (you can remove this in your final implementation)
+
     console.log("First Name:", firstName);
     console.log("Last Name:", lastName);
     console.log("Email:", email);
